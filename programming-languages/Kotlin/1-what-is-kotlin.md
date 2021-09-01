@@ -54,10 +54,10 @@
 <details>
     <summary>Compiler</summary>
 
-    ```bash
-    kotlinc <source file or directory> -include-runtime -d <jar name>
-    java -jar <jar name>
-    ```
+```bash
+kotlinc <source file or directory> -include-runtime -d <jar name>
+java -jar <jar name>
+```
 
     - Kotlin source code(*.kt) -> Kotlin compiler -> *.class -> *.jar
     - Java source code(*.java) -> Java compiler -> *.class -> *.jar

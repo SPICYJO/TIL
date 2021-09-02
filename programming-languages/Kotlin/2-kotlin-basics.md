@@ -159,6 +159,7 @@ fun getSomething(color: Color) =
 
 - it is also possible to use when with no parameter
 - it is also possible to use a block. In this case, `when` is evaluated to last expression's value
+- notice that `==` compares equality of two operands in Kotlin, not identity like in Java
 
 </details>
 
@@ -228,10 +229,33 @@ for ((key, value) in map) { // destructuring
 }
 ```
 
-- `in` can also be used to determine if value is in the certain range. (e.g. `3 in 4..6`)
+- cf) `in` can also be used to determine if value is in the certain range. (e.g. `3 in 4..6`, `3 !in 4..6`)
 
 </details>
 
 
 ## Exception handling
 
+
+<details>
+    <summary>try, catch, finally</summary>
+    
+```kotlin
+fun readNumber(reader: BufferedReader): Int? {
+    try {
+        val line = reader.readLine()
+        return Integer.parseInt(line)
+    }
+    catch (e: NumberFormatException) {
+        return null
+    }
+    finally {
+        reader.close()
+    }
+}
+```
+
+- Unlike Java, there is no need to explicitly handle cheched exception (i.e. In Java, it is forced to either catch it or declare with `throws` keyword in function signature)
+- `try` is also an expression
+
+</details>

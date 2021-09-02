@@ -6,7 +6,7 @@ This document is about what I learned about **Kotlin programming language**. I m
 
 ## TOC
 1. [What is Kotlin? Why is it needed?](./1-what-is-kotlin.md)
-2. 
+2. [Kotlin Basics](./2-kotlin-basics.md) 
 
 ## References
 - Dmitry Jemerov, Svetlana Isakova, 오현석(Translator) - Kotlin in action - 에이콘출판주식회사

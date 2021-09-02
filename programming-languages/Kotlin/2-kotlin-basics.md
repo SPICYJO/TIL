@@ -197,6 +197,8 @@ fun eval(e: Expr): Int {
 while (condition) {
     /*...*/
 }
+```
+```kotlin
 do {
     /*...*/
 } while (condition)

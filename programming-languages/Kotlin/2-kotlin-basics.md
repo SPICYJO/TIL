@@ -231,7 +231,7 @@ for ((key, value) in map) { // destructuring
 }
 ```
 
-- cf) `in` can also be used to determine if value is in the certain range. (e.g. `3 in 4..6`, `3 !in 4..6`)
+- cf) `in` can also be used to determine whether value is in the certain range or not. (e.g. `3 in 4..6`, `3 !in 4..6`)
 
 </details>
 

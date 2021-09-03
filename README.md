@@ -7,3 +7,9 @@ Today I Learned - Make my Github Green Again!
 3. Be a better person everyday.
 
 ## TOC
+<details>
+    <summary>Programming</summary>
+
+- [Kotlin](./programming/kotlin/README.md)
+
+</details>
